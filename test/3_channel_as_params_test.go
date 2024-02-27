@@ -19,4 +19,6 @@ func TestChannelAsParams(t *testing.T) {
 	// consume
 	data := <-chanString
 	fmt.Println("value :", data)
+
+	// test
 }
