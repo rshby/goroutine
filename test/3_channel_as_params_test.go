@@ -20,5 +20,6 @@ func TestChannelAsParams(t *testing.T) {
 	data := <-chanString
 	fmt.Println("value :", data)
 
-	// test
+	// test reo
+	
 }
