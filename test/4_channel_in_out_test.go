@@ -25,7 +25,7 @@ func TestChannelInOut(t *testing.T) {
 	wg := &sync.WaitGroup{}
 
 	wg.Add(1)
-	go OnlyInChannel(wg, chanString, "rere")
+	go OnlyInChannel(wg, chanString, "reoo")
 
 	wg.Add(1)
 	go OnlyOutChannel(wg, chanString)
